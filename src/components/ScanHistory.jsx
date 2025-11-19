@@ -5,7 +5,6 @@ const ScanHistory = () => {
   const scannedDataFromStorage = JSON.parse(localStorage.getItem(SCAN_DATA));
   return (
     <div>
-      console.log("Hello world");
       {scannedDataFromStorage &&
         scannedDataFromStorage.map((data) => (
           <div>
