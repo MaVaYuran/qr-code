@@ -1,0 +1,33 @@
+.generate {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 600px;
+  /* min-height: 100vh; */
+}
+
+.btnGNRT {
+  width: 70%;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+}
+
+.btnGNRT:hover {
+  border: 1px solid #aaaaaa;
+}
+
+input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+  background: #f5f2d0;
+  font-size: 1.5em;
+}
+
+input:focus {
+  outline: none;
+}
